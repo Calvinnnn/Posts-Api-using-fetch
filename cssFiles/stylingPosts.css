@@ -1,0 +1,28 @@
+#posts-container{
+    position: fixed; /* or absolute */
+    right: 0;
+    top: 0;
+    width: 50%; /* Adjust as needed */
+    height: 100vh;
+    
+    /* Flex container with column direction */
+    display: flex;
+    flex-direction: column;
+    
+    /* Styling */
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    overflow-y: auto;
+    box-shadow: -3px 0 10px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    padding-top:50px;
+}
+
+.post_element {
+    border: 1px solid rgb(240, 14, 14);
+    border-radius: 15px;
+    padding: 15px; /* Add padding so content isn't touching border */
+    margin: 10px 0; /* Add margin between posts */
+    background-color: rgba(255, 255, 255, 0.3); /* Add background so border is visible */
+    border-radius: 20px;
+}
